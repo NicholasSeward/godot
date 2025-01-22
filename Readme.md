@@ -67,3 +67,9 @@ graph LR
     Action1 --> End
     Action2 --> End
 ```
+```mermaid
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+```
