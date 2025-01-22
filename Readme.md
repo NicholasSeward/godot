@@ -58,3 +58,12 @@ Block code (with language specified for syntax highlighting):
 def hello_world():
     print("Hello, world!")
 ```
+
+```mermaid
+graph LR
+    Start --> Decision{Decision}
+    Decision -->|Yes| Action1[Action 1]
+    Decision -->|No| Action2[Action 2]
+    Action1 --> End
+    Action2 --> End
+```
